@@ -14,6 +14,7 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity {
 
     EditText weight, height;
+    TextView tvRes, tvInfo;
     Button btnCalc;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         height = (EditText) findViewById(R.id.etM);
         btnCalc = (Button)findViewById(R.id.btnCalc);
 
-        final TextView tvRes = (TextView)findViewById(R.id.tvRes);
-        final TextView tvInfo = (TextView)findViewById(R.id.tvInfo);
+        tvRes = (TextView)findViewById(R.id.tvRes);
+        tvInfo = (TextView)findViewById(R.id.tvInfo);
         Button btnCalc = (Button)findViewById(R.id.btnCalc);
 
 
